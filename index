@@ -2,29 +2,26 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Fotoğraf</title>
+  <title>Fotoğraf Sayfası</title>
   <style>
     body {
       margin: 0;
-      padding: 0;
-      background: #000;
+      background-color: black;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
     }
     img {
-      width: 100vw;
-      height: 100vh;
-      object-fit: cover;
-      display: block;
+      max-width: 90%;
+      max-height: 90vh;
+      object-fit: contain;
+      border-radius: 15px;
+      box-shadow: 0 0 20px rgba(255,255,255,0.5);
     }
   </style>
 </head>
 <body>
-  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQkVLuBHFX98kWHvIqa2mRf9jcwwLOcbhfgd4LEsTsFOn__cgre5F-h5Pm&s=10" alt="Senin için">
+  <img src="https://i.imgur.com/0wSx9Ld.jpg" alt="Goril">
 </body>
 </html>
-```
-
-*Yapman gereken:*  
-– `src="..."` kısmına kendi görselinin *gerçek adresini* yapıştırmak.  
-– Görsel tam ekran olur, yazı vs. eklenmez.
-
-Hazırsan görsel linkini alıp değiştirebiliriz. Yardımcı olayım mı?
